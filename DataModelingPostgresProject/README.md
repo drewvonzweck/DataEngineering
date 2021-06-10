@@ -61,8 +61,8 @@ This file is where the ETL logic occurs, we grab the data files and pass them in
 ## How to run it (in the terminal)
 **First:** create_tables.py must be ran first so that the relations exist in the database to be occupied. This file uses sql_queries.py
 ```
-python create_tables.sql
+python create_tables.py
 ```
 **Second:** etl.py can then be ran which will extract the data from the files, transform it, then load it using sql_queries.py
 ```
-python etl.py.sql
+python etl.py
